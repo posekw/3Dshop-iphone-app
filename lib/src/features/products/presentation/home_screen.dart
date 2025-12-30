@@ -127,20 +127,8 @@ class HomeHeader extends StatelessWidget {
               // Logo Area
               Row(
                 children: [
-                   // Custom Logo Shapes (Simplified with Containers)
-                   SizedBox(
-                     width: 32, height: 32,
-                     child: Stack(
-                       children: [
-                         Positioned(top:0, left:0, child: Container(width:16, height:16, color: AppTheme.secondary)),
-                         Positioned(bottom:0, left:0, child: Container(width:16, height:16, color: AppTheme.accent)),
-                         Positioned(right:0, top:0, bottom:0, child: Container(width:20, decoration: const BoxDecoration(
-                           color: AppTheme.primary,
-                           borderRadius: BorderRadius.only(topRight: Radius.circular(8), bottomRight: Radius.circular(8)),
-                         ))),
-                       ],
-                     ),
-                   ),
+                   // Custom Logo
+                   Image.asset('assets/images/logo.png', width: 40, height: 40),
                    const SizedBox(width: 8),
                    Text('3 SHOP', style: Theme.of(context).textTheme.displaySmall?.copyWith(letterSpacing: 2)),
                 ],
