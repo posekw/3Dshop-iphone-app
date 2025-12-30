@@ -130,7 +130,7 @@ class HomeHeader extends StatelessWidget {
                    // Custom Logo
                    Image.asset('assets/images/logo.png', width: 40, height: 40),
                    const SizedBox(width: 8),
-                   Text('3 SHOP', style: Theme.of(context).textTheme.displaySmall?.copyWith(letterSpacing: 2)),
+                   Text('SHOP', style: Theme.of(context).textTheme.displaySmall?.copyWith(letterSpacing: 2)),
                 ],
               ),
               // Bag Icon
